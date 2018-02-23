@@ -8,7 +8,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Datadriven
 {
-	String path="G:\\Prashanth\\BT.xlsx";
+	String path="G:\\Prashanth\\BT\\Business_Talent\\Testdata\\BT.xlsx";
 public String get(String sname,int rnum,int cnum) throws IOException
 {
 	FileInputStream fis=new FileInputStream(path);
